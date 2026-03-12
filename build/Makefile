@@ -11,14 +11,13 @@ LD       = icpc
 
 CFLAGS   = -Wall -O3
 #CFLAGS   = -g
-LIBS     = -L/home/falvoc/opt/nauty/lib -lnauty
+LIBS     = -lnauty
 
 #
 PROG     = ../molgraph.x
 LISTEOBJ = \
         main.o
 
-#	nautyex8.o	
 #
 # compilation
 #
